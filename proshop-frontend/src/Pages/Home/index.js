@@ -1,7 +1,7 @@
 import React from 'react'
 import {Col, Row} from "react-bootstrap";
 import products from '../../products'
-import ProductComponent from "../../Components/Product/product.component";
+import ProductCardComponent from "../../Components/ProductCard/product.component";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
               lg={4}
               xl={3}
             >
-              <ProductComponent product={product}/>
+              <ProductCardComponent product={product}/>
             </Col>
           )
         })}
